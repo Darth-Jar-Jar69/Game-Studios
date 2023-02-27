@@ -1,0 +1,67 @@
+html{
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifss;
+font-size: large;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links {
+  color: fuchsia;
+  font-family: 'fantasy';
+  font-size: 20px;
+  padding: 5px 9px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Adds a shadow effect to text */
+}
+
+.links:hover {
+  background-color: aqua;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: gainsboro;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Adds a shadow effect to text */
+}
+
+#welcome {
+  padding: 50px;
+  text-align: center;
+  background-color: white; /* Adds a background color to the section */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect to the section */
+  border-radius: 10px; /* Rounds the corners of the section */
+}
+
+img{
+  
+ size:10px;
+
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Studios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="links"><a href="#welcome">Home</a></li>
+          <li class="links"><a href="#fortnite">FORTNITE</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome">
+        <h1>Welcome to Game Studios</h1>
+        <p>We are a one-stop destination for all your gaming needs. From the latest releases to timeless classics, we have it all. Explore our site to discover what we have in store for you.</p>
+      </section>
+      <section id="fortnite">
+        <h2>Fortnite</h2>
+        <a href="fortnite.html">
+          <img class="fornite-image" src="https://static.techspot.com/images2/news/ts3_thumbs/2020/10/2020-10-21-ts3_thumbs-e9d.jpg" target="_blank" alt="A screenshot of Fortnite's Battle Royale game mode, showing characters with weapons in a fantasy world" width="500" height="300">
+        </a>
+        <h2>Call of Duty</h2>
+        <a href="cod.html">
+          <img class="cod-image" src="https://www.charlieintel.com/wp-content/uploads/2022/11/call-of-duty-2023.jpg" target="_blank" alt="A screenshot of Fortnite's Battle Royale game mode, showing characters with weapons in a fantasy world" width="500" height="300">
+        </a>
+      </section>
+    </main>
+    <h1 id="date"></h1>
+
+    <script>
+      // Get the current date
+      const currentDate = new Date();
+
+      // Get the date as a string
+      const dateString = currentDate.toDateString();
+
+      // Set the text of the element with id "date"
+      const dateElement = document.getElementById("date");
+      dateElement.innerText = "Today's date is: " + dateString;
+    </script>
+  </body>
+</html>
